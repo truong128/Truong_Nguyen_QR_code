@@ -49,7 +49,7 @@ if st.button("Generate QR Code"):
             QR.make(fit=True)
 
             
-            img = QR.make_image(fill_color="black", back_color="orange")
+            img = QR.make_image(fill_color="black", back_color="cyan")
             img.save("QR_code.png")
 
             
